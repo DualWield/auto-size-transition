@@ -1,0 +1,20 @@
+{
+  "name": "auto-size-transition",
+  "version": "1.0.2",
+  "description": "container size changes with content by transition",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">= 16",
+    "react-dom": ">= 16"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.33",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
