@@ -7,10 +7,14 @@ Demo: https://codesandbox.io/s/compassionate-kapitsa-6uxeo
 
 Usage:
 
+```
+yarn add auto-size-transition
+```
+
 ```javascript
 import AutoSizeTransition from "auto-size-transition";
 
-<AutoSizeTransition>
+<AutoSizeTransition style={{background: 'red'}}>
   {visible ? (
     <div style={{ width: 300, display: "inline-block", padding: 20 }}>
       <p>如果天总也不亮，那就摸黑过生活；</p>
