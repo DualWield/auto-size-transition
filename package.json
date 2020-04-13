@@ -1,17 +1,31 @@
 {
   "name": "auto-size-transition",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "container size changes with content by transition",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DualWield/auto-size-transition"
+  },
+  "author": "Li Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DualWield/auto-size-transition/issues"
+  },
+  "homepage": "https://github.com/DualWield/auto-size-transition",
+  "keywords": [
+    "react",
+    "autosize",
+    "transition",
+    "component"
+  ],
   "peerDependencies": {
     "react": ">= 16",
     "react-dom": ">= 16"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/react": "^16.9.33",
     "react": "^16.13.1",
