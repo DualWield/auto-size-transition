@@ -1,6 +1,6 @@
 {
   "name": "auto-size-transition",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "container size changes with content by transition",
   "main": "index.js",
   "scripts": {
