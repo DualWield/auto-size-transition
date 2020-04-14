@@ -33,7 +33,7 @@ export default class AutoTransition extends React.Component {
     }
     render() {
         const { transition, style, children, className } = this.props;
-        return (React.createElement("div", { className: className, ref: this.rootRef, style: Object.assign({ overflow: "hidden", transition: `all ${transition}s`, position: "absolute" }, style) }, children));
+        return (React.createElement("div", { className: className, ref: this.rootRef, style: Object.assign({ overflow: "hidden", transition: `all ${transition}s`, display: "inline-block" }, style) }, children));
     }
 }
 AutoTransition.defaultProps = {

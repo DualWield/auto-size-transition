@@ -71,7 +71,7 @@ export default class AutoTransition extends React.Component<Props, State> {
         style={{
           overflow: "hidden",
           transition: `all ${transition}s`,
-          position: "absolute",
+          display: "inline-block",
           ...style,
         }}
       >
