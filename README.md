@@ -36,7 +36,7 @@ import AutoSizeTransition from "auto-size-transition";
 ```
 
 ## Demo
-https://codesandbox.io/s/compassionate-kapitsa-6uxeo
+https://codesandbox.io/s/goofy-jepsen-0fnh4
 
 ## Props
 
